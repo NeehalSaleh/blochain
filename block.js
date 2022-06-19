@@ -24,7 +24,8 @@ mine(difficult) {
      this.numberOfGuesses++;
         this.hash = this.calchash();
     }
-    console.log("block mined:" + this.hash+"" +this.numberOfGuesses);
+
+
  }
 }
 export default block;
